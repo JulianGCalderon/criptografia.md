@@ -1,7 +1,3 @@
-Un número entero es un elemento del conjunto numérico que contiene los números naturales, y sus opuestos (además del cero).
-
-## División
-
 Sean $a, b$ enteros tal que $b \neq 0$, entonces diremos que $b$ divide a $a$, o $b | a$, si existe un entero $c$ tal que:
 
 $$
@@ -27,13 +23,3 @@ a = bq + r,\quad 0 \leq r < b
 $$
 
 El [[Algoritmo euclidiano]] permite calcular el mínimo común divisor en un número finito de pasos.
-
-## Número primo
-
-El número $p$ es primo si sus únicos divisores son $1$ y $p$.
-
-**Teorema fundamental de la aritmética:** Todo entero $b$ puede ser factorizado como producto de potencias de primos: $b = p_1^{n_1}p_2^{n_2}p_3^{n_3}\dots$
-
-## Coprimos
-
-Diremos que dos enteros son coprimos si su mínimo común divisor es $1$.
