@@ -1,30 +1,17 @@
----
-draft: true
----
-
-**Congruencia:** Se dice para [[Enteros]] que $a \equiv b \mod p$ si y solo si $a = p\cdot n + b$. Si son congruentes, entonces $a-b$ es divisible por $p$.
-
-En la aritmética modular, solo nos quedamos con el resto de las operaciones (al dividirlas por el órden $p$).
-
-Se define la clase de equivalencia $\mathbb{Z}_p$ como los números resultantes al aplicar aritmética modular con órden $p$ primo. En este conjunto, definimos la operación de suma $+$ donde tras aplicar la suma tradicional, nos quedamos con el módulo del número en el órden $p$. La tupla $(\mathbb{Z}_p, +)$ es un [[Grupos|Grupo]].
-
-## Multiplicación
-
-Definiremos la operación de multiplicación $(\cdot)$ como la aplicación de la operación de grupo de suma, $n$ veces.
+Sea $m >= 1$ un entero, diremos que los enteros $a,b$ son congruentes en módulo $m$ si su diferencia es divisible por $m$:
 
 $$
-a\cdot n = \underbrace{a+a+a+\dots}_{n \text{veces}}
+a \equiv b \mod m
 $$
 
-Un problema común es hallar el menor número positivo $k$ tal que en el grupo, $x\cdot k = 0$.
+Sea $a$ un entero, entonces $ab \equiv 1 \mod m$ para algún entero $b$ si y solo si $\gcd(a,m) = 1$ (son coprimos). Se dice que $b$ es la inversa de $a$. A medida que $m$ se hace grande, es difícil calcular su inversa.
 
-## Potencia
+La rotación del [[Cifrados por sustitución#Cifrado de Cesar|cifrado de cesar]] se puede pensar como aritmética modular.
 
-Consideramos el conjunto $\mathbb{Z}_p^*$ como $\mathbb{Z}_p - \{0\}$. Se puede probar que $(\mathbb{Z_p^*}, \times)$ es un grupo. Luego definiremos la operación de potencia como la aplicación de la operación del grupo, $n$ veces.
+## Anillo de enteros
 
-El resultado se puede reducir entre medio de las multiplicaciones (según la aritmética modular), y el resultado será el mismo.
+Se define la clase de equivalencia $\mathbb{Z}/m\mathbb{Z}$, o $\mathbb Z_m$, como el anillo de enteros de módulo $m$. Agregamos y multiplicamos elementos del anillo al agregarlos y multiplicarlos como enteros, dividiendo por $m$, y tomando el resto.
 
-El problema del logaritmo discreto consiste en hallar $x$ tal que $a^n = b$, conociendo $a,b$. Este es un problema computacionalmente complejo.
+Los elementos del anillo que tienen inversa se denominan unidades. Al multiplicar dos unidades, obtendremos otra unidad (esto se debe a que podemos multiplicarlas por sus respectivas inversas para cancelarlas).
 
-> [!note] Complejidad de $a^n$
-> Para calcular $a^n$, puedo elevar al cuadrado sucesivamente y luego multiplicar directamente las potencias restantes: $a \to a^2 \to a^4 \to a^8 \to a^9$
+Denominaremos $\mathbb{Z}_m^*$ como el [[Grupos|grupo]] de las unidades de módulo $m$. Todos los elementos de este conjunto tienen inversa (por definición). Además, los elementos son todos los coprimos de $m$, por lo que según la [[Función de Euler]], $\phi(m) = |\mathbb{Z}_m^*|$.

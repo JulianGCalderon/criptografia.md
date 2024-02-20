@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Matemática/Enteros.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41c6d5b722995b00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Aritmética modular.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1da9bd9bc3cac32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Matemática/Aritmética modular.md",
                 "mode": "source",
                 "source": false
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "27fa34a008cbe5de",
@@ -159,13 +183,19 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "31c176587e6168f5",
+  "active": "a1da9bd9bc3cac32",
   "lastOpenFiles": [
     "Matemática/Algoritmo euclidiano.md",
     "Matemática/Enteros.md",
-    "Matemática/Aritmética modular.md",
-    "Matemática/Grupos.md",
+    "Matemática/Exponenciación binaria.md",
     "Matemática/Matemática.md",
+    "Matemática/Función de Euler.md",
+    "Matemática/Grupos.md",
+    "Matemática/Problema del logaritmo discreto.md",
+    "Matemática/Aritmética modular.md",
+    "Modelo RSA.md",
+    "Merkle Puzzles.md",
+    "Integridad.md",
     "Algoritmo de Diffie-Hellman.md",
     "Análisis de frecuencia de letras.md",
     "Autenticación.md",
@@ -176,18 +206,12 @@
     "Encriptación.md",
     "Criptografía.md",
     "Cifrados por sustitución.md",
-    "Integridad.md",
-    "Modelo RSA.md",
-    "Merkle Puzzles.md",
     "Matemática/Teoría de números.md",
     "Matemática/Número primo.md",
     "Matemática/División con resto.md",
     "Matemática/Común divisor.md",
     "Matemática/División.md",
     "Matemática",
-    "Análisis estadistico.md",
-    "MAC.md",
-    "Números enteros.md",
     "draft"
   ]
 }
