@@ -1,4 +1,6 @@
-Este modelo se basa en la idea de factorización de [[Números enteros#Números primos|Números primos]].
+---
+draft: true
+---
 
 ## Función de Euler
 
@@ -32,4 +34,3 @@ Luego, la desencriptación será:
 $$
 c^d \equiv m \mod n
 $$
-

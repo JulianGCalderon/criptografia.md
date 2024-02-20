@@ -1,64 +1,35 @@
 {
   "main": {
-    "id": "d803ad55a8cc306c",
+    "id": "1d51272df622f736",
     "type": "split",
     "children": [
       {
-        "id": "5dc77362b1469362",
+        "id": "e25c5c60c7e9491a",
         "type": "tabs",
         "children": [
           {
-            "id": "414fb5444f73bd20",
+            "id": "31c176587e6168f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Encriptación.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "315ba9d89bdf7982",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmo de Diffie-Hellman.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdf3320a702ca24d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Números enteros.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "0f3b4ef83aa69c30",
+    "id": "ed6274cb73040a84",
     "type": "split",
     "children": [
       {
-        "id": "9fbf93a4339b5f3c",
+        "id": "73625f80c1968f85",
         "type": "tabs",
         "children": [
           {
-            "id": "8c1ef7d119d917c8",
+            "id": "30f1d7b6fcb9f6b0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,12 +39,12 @@
             }
           },
           {
-            "id": "728ca897a1f5ecc3",
+            "id": "d83c97a9fc810272",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#typo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +54,7 @@
             }
           },
           {
-            "id": "cda66665a2637abd",
+            "id": "894e1300bf910808",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -97,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "dc71f79ff612dc59",
+    "id": "27fa34a008cbe5de",
     "type": "split",
     "children": [
       {
-        "id": "80138807d74ee8d6",
+        "id": "dcbbeea2e7b12c92",
         "type": "tabs",
         "children": [
           {
-            "id": "61e4d01ec69c3ddf",
+            "id": "97059fb672093976",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmo de Diffie-Hellman.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,19 +92,18 @@
             }
           },
           {
-            "id": "2803f1d9405f710b",
+            "id": "f6b064394312b205",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmo de Diffie-Hellman.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f6a646c92e38d21c",
+            "id": "ecf2e87325d48eb8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,13 +114,11 @@
             }
           },
           {
-            "id": "5f203c7cf5418380",
+            "id": "51e052475e51e22c",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algoritmo de Diffie-Hellman.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -163,31 +130,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "315ba9d89bdf7982",
+  "active": "31c176587e6168f5",
   "lastOpenFiles": [
+    "Matemática/Enteros.md",
+    "Matemática/Grupos.md",
+    "Matemática/Matemática.md",
+    "Algoritmo de Diffie-Hellman.md",
+    "Análisis de frecuencia de letras.md",
+    "Autenticación.md",
+    "Matemática/Aritmética modular.md",
     "Encriptación asimétrica.md",
-    "Integridad (computacional).md",
-    "Confidencialidad.md",
-    "2024-02-19.md",
-    "Autenticidad.md",
+    "Encriptación simétrica.md",
+    "Cifrado XOR.md",
+    "Matemática/Algoritmo euclidiano.md",
+    "Fuerza bruta.md",
+    "Encriptación.md",
+    "Criptografía.md",
+    "Cifrados por sustitución.md",
+    "Integridad.md",
     "Modelo RSA.md",
     "Merkle Puzzles.md",
+    "Matemática/Teoría de números.md",
+    "Matemática/Número primo.md",
+    "Matemática/División con resto.md",
+    "Matemática/Común divisor.md",
+    "Matemática/División.md",
+    "Matemática",
+    "Análisis estadistico.md",
     "MAC.md",
-    "Grupos.md",
-    "Encriptación XOR.md",
-    "Encriptación simétrica.md",
-    "Encriptación.md",
-    "Aritmética modular.md",
-    "Algoritmo de Diffie-Hellman.md",
     "Números enteros.md",
-    "Welcome.md"
+    "draft"
   ]
 }

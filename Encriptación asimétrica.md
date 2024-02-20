@@ -1,5 +1,9 @@
-Consiste en la creación de una clave publica y una clave privada que estén vinculadas, de forma tal que lo encriptado con una de las claves, es desencriptado con la otra.
+A diferencia de la [[Encriptación simétrica]], tendremos dos claves. Una clave pública, y una clave privada.
 
-El modelo mas simple para la generación de estas claves es el [[Modelo RSA]].
+Los mensajes encriptados con una de las claves pueden ser desencriptados por la otra clave. Esto permite que las entidades ya no se tengan que poner de acuerdo en una clave común, sino que cada una encripta utilizando la clave publica de la otra entidad.
 
-La encriptación asimétrica nos permite demostrar autenticidad al encriptar algo con nuestra clave privada, que solo podrá ser desencriptado por nuestra clave pública. Esto demuestra que nosotros lo encriptamos
+Para esto, es necesario algún mecanismo para la obtención de [[Certificados de clave pública]] que aseguren la autenticidad de las mismas.
+
+Algunos mecanismos para la generación de estas claves son:
+
+- [[Modelo RSA]]

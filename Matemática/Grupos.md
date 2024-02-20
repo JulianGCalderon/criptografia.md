@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 Se dice que el conjunto $(G, +)$ como un grupo, si se cumple que:
 
 - Existe $0 \in \mathbb{Z}_p$ tal que $a + 0 = a$, $\forall a \in \mathbb{Z}_p$

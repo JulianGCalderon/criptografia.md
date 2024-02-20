@@ -1,1 +1,0 @@
-Los MACs, o *message authentication codes*, son códigos que se agregan al mensaje encriptado para verificar que el mensaje no haya sido modificado mientras estaba encriptado, ya sea por azar o por acción externa.

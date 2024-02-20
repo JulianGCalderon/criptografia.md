@@ -1,3 +1,10 @@
 {
-  "alwaysUpdateLinks": true
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "/",
+  "newFileLocation": "current",
+  "spellcheckDictionary": [
+    "coprimos",
+    "Coprimos"
+  ]
 }

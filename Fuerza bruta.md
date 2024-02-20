@@ -1,0 +1,1 @@
+En un ataque de fuerza bruta, se deben probar todas las combinaciones de clave posibles hasta obtener la correcta. En métodos de encriptación seguros es extremadamente ineficiente un ataque por fuerza bruta.

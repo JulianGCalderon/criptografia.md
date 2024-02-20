@@ -1,4 +1,8 @@
-**Congruencia:** Se dice para [[Números enteros]] que $a \equiv b \mod p$ si y solo si $a = p\cdot n + b$. Si son congruentes, entonces $a-b$ es divisible por $p$.
+---
+draft: true
+---
+
+**Congruencia:** Se dice para [[Enteros]] que $a \equiv b \mod p$ si y solo si $a = p\cdot n + b$. Si son congruentes, entonces $a-b$ es divisible por $p$.
 
 En la aritmética modular, solo nos quedamos con el resto de las operaciones (al dividirlas por el órden $p$).
 

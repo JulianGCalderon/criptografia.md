@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 En la década del 70, se descubrió un mecanismo seguro de intercambio de clave a partir de este algoritmo.
 
 1. Se elige un primo $p$ y un generador $g$ del algún subgrupo del $\mathbb Z_p$. Se debe elegir un $p$ y un $g$ suficientemente grande.
