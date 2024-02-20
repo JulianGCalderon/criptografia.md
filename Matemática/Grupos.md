@@ -4,9 +4,10 @@ draft: true
 
 Se dice que el conjunto $(G, +)$ como un grupo, si se cumple que:
 
-- Existe $0 \in \mathbb{Z}_p$ tal que $a + 0 = a$, $\forall a \in \mathbb{Z}_p$
-- Sea $a,b,c \in \mathbb{Z}_p$ entonces $(a+b)+c = a+(b+c)$.
-- Para todo $a \in \mathbb{Z}_p$, $\exists b \in \mathbb{Z}_p$ tal que $a+b = 0$.
+- Para todo $a,b \in G$, $a+b \in G$.
+- Existe $0 \in G$ tal que $a + 0 = a$, $\forall a \in G$
+- Sea $a,b,c \in G$ entonces $(a+b)+c = a+(b+c)$.
+- Para todo $a \in G$, $\exists b \in G$ tal que $a+b = 0$.
 
 Se define el orden del grupo como su cantidad de elementos. Si el orden de un grupo no es primo, entonces se puede descomponer en subgrupos no triviales.
 
