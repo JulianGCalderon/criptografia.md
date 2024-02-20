@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e25c5c60c7e9491a",
+        "id": "2b231c558920bb64",
         "type": "tabs",
         "children": [
           {
-            "id": "31c176587e6168f5",
+            "id": "f12fa7dfa35658c1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática/Enteros.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41c6d5b722995b00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática/Aritmética modular.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1da9bd9bc3cac32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática/Grupos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41fa7f575814be42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática/Algoritmo euclidiano.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática/Grupos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática/Grupos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Matemática/Grupos.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,34 +138,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1da9bd9bc3cac32",
+  "active": "30f1d7b6fcb9f6b0",
   "lastOpenFiles": [
-    "Matemática/Aritmética modular.md",
-    "Matemática/Algoritmo euclidiano.md",
-    "Matemática/Enteros.md",
-    "Matemática/Exponenciación binaria.md",
-    "Matemática/Matemática.md",
-    "Matemática/Función de Euler.md",
+    "Untitled.canvas",
     "Matemática/Grupos.md",
+    "Matemática/Matemática.md",
     "Matemática/Problema del logaritmo discreto.md",
+    "Matemática/Exponenciación binaria.md",
+    "Matemática/Función de Euler.md",
+    "Matemática/Anillos.md",
+    "Matemática/Aritmética modular.md",
+    "Encriptación simétrica.md",
+    "Encriptación asimétrica.md",
+    "Matemática/Enteros.md",
+    "Matemática/Algoritmo euclidiano.md",
     "Modelo RSA.md",
-    "Merkle Puzzles.md",
-    "Integridad.md",
     "Algoritmo de Diffie-Hellman.md",
     "Análisis de frecuencia de letras.md",
+    "Encriptación.md",
+    "Merkle Puzzles.md",
+    "Integridad.md",
     "Autenticación.md",
-    "Encriptación asimétrica.md",
-    "Encriptación simétrica.md",
     "Cifrado XOR.md",
     "Fuerza bruta.md",
-    "Encriptación.md",
     "Criptografía.md",
     "Cifrados por sustitución.md",
     "Matemática/Teoría de números.md",
     "Matemática/Número primo.md",
     "Matemática/División con resto.md",
-    "Matemática/Común divisor.md",
-    "Matemática/División.md",
     "Matemática",
     "draft"
   ]

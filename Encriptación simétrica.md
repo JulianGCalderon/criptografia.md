@@ -6,3 +6,5 @@ Existen diversas técnicas de encriptación con clave privada, entre ellas:
 
 - [[Cifrados por sustitución]]
 - [[Cifrado XOR]]
+- [[AES]]
+- [[ChaCha10]]

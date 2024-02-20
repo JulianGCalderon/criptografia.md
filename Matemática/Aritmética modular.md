@@ -10,7 +10,7 @@ La rotación del [[Cifrados por sustitución#Cifrado de Cesar|cifrado de cesar]]
 
 ## Anillo de enteros
 
-Se define la clase de equivalencia $\mathbb{Z}/m\mathbb{Z}$, o $\mathbb Z_m$, como el anillo de enteros de módulo $m$. Agregamos y multiplicamos elementos del anillo al agregarlos y multiplicarlos como enteros, dividiendo por $m$, y tomando el resto.
+Se define la clase de equivalencia $\mathbb{Z}/m\mathbb{Z}$, o $\mathbb Z_m$, como el [[Anillos|anillo]] de enteros de módulo $m$. Agregamos y multiplicamos elementos del anillo al agregarlos y multiplicarlos como enteros, dividiendo por $m$, y tomando el resto.
 
 Los elementos del anillo que tienen inversa se denominan unidades. Al multiplicar dos unidades, obtendremos otra unidad (esto se debe a que podemos multiplicarlas por sus respectivas inversas para cancelarlas).
 
