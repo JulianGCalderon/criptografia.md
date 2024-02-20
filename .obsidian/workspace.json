@@ -11,8 +11,24 @@
             "id": "31c176587e6168f5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Aritmética modular.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41fa7f575814be42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática/Algoritmo euclidiano.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "27fa34a008cbe5de",
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Matemática/Aritmética modular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Matemática/Aritmética modular.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Matemática/Aritmética modular.md"
+              }
             }
           }
         ]
@@ -140,17 +161,17 @@
   },
   "active": "31c176587e6168f5",
   "lastOpenFiles": [
+    "Matemática/Algoritmo euclidiano.md",
     "Matemática/Enteros.md",
+    "Matemática/Aritmética modular.md",
     "Matemática/Grupos.md",
     "Matemática/Matemática.md",
     "Algoritmo de Diffie-Hellman.md",
     "Análisis de frecuencia de letras.md",
     "Autenticación.md",
-    "Matemática/Aritmética modular.md",
     "Encriptación asimétrica.md",
     "Encriptación simétrica.md",
     "Cifrado XOR.md",
-    "Matemática/Algoritmo euclidiano.md",
     "Fuerza bruta.md",
     "Encriptación.md",
     "Criptografía.md",
