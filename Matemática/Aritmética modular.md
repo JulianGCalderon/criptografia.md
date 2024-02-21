@@ -4,7 +4,9 @@ $$
 a \equiv b \mod m
 $$
 
-Sea $a$ un entero, entonces $ab \equiv 1 \mod m$ para algún entero $b$ si y solo si $\gcd(a,m) = 1$ (son coprimos). Se dice que $b$ es la inversa de $a$. A medida que $m$ se hace grande, es difícil calcular su inversa.
+Sean $a_1 \equiv a_2 \mod m$ y $b_1 \equiv b_2 \mod m$, entonces $a_1 + b_1 \equiv a_2 + b_2 \mod m$. Además,$a_1b_1 \equiv a_2b_2 \mod m$.
+
+Sea $a$ un entero, entonces $ab \equiv 1 \mod m$ para algún entero $b$ si y solo si son [[Números primos#Coprimos|coprimos]]. Se dice que $b$ es el inverso multiplicativo de $a$.
 
 La rotación del [[Cifrados por sustitución#Cifrado de Cesar|cifrado de cesar]] se puede pensar como aritmética modular.
 
