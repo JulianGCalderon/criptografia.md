@@ -15,4 +15,4 @@ Este tipo de encriptación se denomina **one time pad**, ya que solo se puede ut
 
 La probabilidad de que yo desencripte el mensaje sin necesidad de la clave es de $\frac 12^n$. Debido a esto, se dice que es un **secreto perfecto**.
 
-Requiere que yo encuentre una clave que tenga el mismo tamaño que el mensaje que yo quiero encriptar. Una posible solución a esto es utilización de un [[Stream Cipher]].
+Requiere que yo encuentre una clave que tenga el mismo tamaño que el mensaje que yo quiero encriptar. Una posible solución a esto es utilización de un [[Cifrado por bloques]]

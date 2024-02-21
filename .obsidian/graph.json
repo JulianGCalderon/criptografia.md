@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Matemática  ",
-      "color": {
-        "a": 1,
-        "rgb": 6063574
-      }
-    },
-    {
       "query": "file:Criptografía",
       "color": {
         "a": 1,
@@ -27,6 +20,13 @@
         "a": 1,
         "rgb": 8902236
       }
+    },
+    {
+      "query": "path:Matemática  ",
+      "color": {
+        "a": 1,
+        "rgb": 6063574
+      }
     }
   ],
   "collapse-display": true,
@@ -35,10 +35,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.401873327386262,
+  "centerStrength": 0.286173502604167,
   "repelStrength": 13.1757359500446,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.87107962423127,
+  "scale": 0.7715524442695565,
   "close": true
 }

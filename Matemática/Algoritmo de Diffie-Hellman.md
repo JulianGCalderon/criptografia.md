@@ -11,4 +11,6 @@ En la década del 70, se descubrió un mecanismo seguro de intercambio de clave 
 	2. La segunda entidad calcula $(PK_a)^b = (g^a)^b$
 4. Ambos entidades tendrán $g^{ab}$, que podrán utilizar para generar una clave a través de una función *KDF (key definition function)*.
 
-Este algoritmo también puede ser aplicado con otros grupos, como el de [[Curvas elípticas]]
+Este algoritmo también puede ser aplicado con otros grupos, como el de [[Curvas elípticas]].
+
+Si en lugar de utilizar $g$, una entidad utiliza $g'$ como generador de un grupo de orden mayor, entonces $b$ podría caer fuera del grupo original $G$. Se le puede robar información a la otra entidad si esta no verifica esto. #preguntar
