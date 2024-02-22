@@ -2,7 +2,7 @@
 draft: true
 ---
 
-En la década del 70, se descubrió un mecanismo seguro de intercambio de clave a partir de este algoritmo.
+Es un mecanismo seguro de intercambio de clave que utiliza la teoría de [[Grupos]].
 
 1. Se elige un generador $g$ del algún grupo $G$ de orden $r$. Se debe elegir un $g$ y un $r$ suficientemente grande.
 2. Cada entidad elige $a,b$ respectivamente, como elementos del subgrupo.

@@ -1,7 +1,3 @@
----
-draft: true
----
-
 Se dice $(G, +)$ que, siendo $G$ un conjunto y $+$ su operación binaria asociada, es un grupo si se cumple que:
 
 - Para todo $a,b \in G$, $a+b \in G$.
@@ -26,3 +22,5 @@ Se dice que un número $a$ es **generador** del grupo $(G, +)$, si $\forall b \i
 Un subgrupo $H$ es un subconjunto de los elementos de $G$ tal que, tras la misma operación, respeta los axiomas del grupo.
 
 El orden del elemento $a$ de un grupo $G$ es el orden del subgrupo $H$ generado al multiplicar al elemento $a$ por todo número natural.
+
+Por el [[Teorema de Lagrange]], si el grupo de órden [[Números primos|primo]], entonces solo existiran los subgrupos triviales.

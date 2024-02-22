@@ -10,6 +10,7 @@
     "preimagen",
     "Hash",
     "precomputado",
-    "hash"
+    "hash",
+    "coprimo"
   ]
 }

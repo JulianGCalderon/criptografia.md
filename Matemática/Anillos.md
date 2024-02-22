@@ -1,7 +1,3 @@
----
-draft: true
----
-
 Se dice que la tupla $(G, +, \times)$ es un anillo si y solo si:
 
 - La tupla $(G, +)$ es un grupo conmutativo con neutro $0$.

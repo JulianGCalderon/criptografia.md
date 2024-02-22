@@ -6,4 +6,4 @@ Para esto, es necesario algún mecanismo para la obtención de [[Certificados de
 
 Algunos mecanismos para la generación de estas claves son:
 
-- [[Modelo RSA]]
+- [[RSA]]
