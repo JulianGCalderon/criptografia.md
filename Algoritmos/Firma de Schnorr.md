@@ -1,4 +1,4 @@
-jPara firmar un mensaje $m$, partimos de un generador $g$ de un [[Grupos]] de orden $p$. Está basado en el [[Problema del logaritmo discreto]] y el uso de una [[Función hash]].
+Para firmar un mensaje $m$, partimos de un generador $g$ de un [[Grupos]] de orden $p$. Está basado en el [[Problema del logaritmo discreto]] y el uso de una [[Función hash]].
 
 Necesitaremos una clave privada $x$ y una clave pública de verificación $y = g^x$.
 
