@@ -24,7 +24,7 @@ Si $e_v = e$, entonces $r_v = r$, por lo que la firma se verifica.
 
 ## Ataques
 
-Si utilizamos el mismo $k$ para firmar dos mensajes, entonces se podrá derivar la clave secreta $x$ con aritmetica simple.
+Si utilizamos el mismo $k$ para firmar dos mensajes, entonces se podrá derivar la clave secreta $x$ con aritmética simple.
 
 ## Curvas elípticas
 
