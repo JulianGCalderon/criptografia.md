@@ -21,3 +21,5 @@ Algunas formas de construir funciones de hash, son:
 
 - Merkle-Damgård
 - Esponja
+
+

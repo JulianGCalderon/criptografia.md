@@ -1,4 +1,4 @@
-Para firmar un mensaje $m$, partimos de un generador $g$ de un [[Grupos]] de orden $p$. Está basado en el [[Problema del logaritmo discreto]]
+jPara firmar un mensaje $m$, partimos de un generador $g$ de un [[Grupos]] de orden $p$. Está basado en el [[Problema del logaritmo discreto]] y el uso de una [[Función hash]].
 
 Necesitaremos una clave privada $x$ y una clave pública de verificación $y = g^x$.
 
@@ -25,3 +25,7 @@ Si $e_v = e$, entonces $r_v = r$, por lo que la firma se verifica.
 ## Ataques
 
 Si utilizamos el mismo $k$ para firmar dos mensajes, entonces se podrá derivar la clave secreta $x$ con aritmetica simple.
+
+## Curvas elípticas
+
+Para utilizar la firma de Schnorr con [[Curvas elípticas]] se debe elegir una de las componentes, ya sea $x$ o $y$, como clave.

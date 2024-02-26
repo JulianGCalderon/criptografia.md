@@ -1,3 +1,8 @@
+---
+aliases:
+  - Primo
+---
+
 El número $p$ es primo si sus únicos [[Divisibilidad|divisores]] son $1$ y $p$.
 
 ## Teorema fundamental de la aritmética

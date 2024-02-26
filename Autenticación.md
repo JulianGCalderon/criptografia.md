@@ -5,5 +5,7 @@ La [[Encriptación asimétrica]] permite esto, ya que podemos firmar el archivo 
 Otras técnicas conocidas son:
 
 - [[Firma de Schnorr]]
+- [[HMAC]]
 - DSA
 - ECDSA
+- EdDSA

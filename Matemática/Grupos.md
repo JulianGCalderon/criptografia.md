@@ -1,3 +1,8 @@
+---
+aliases:
+  - Grupo
+---
+
 Se dice $(G, +)$ que, siendo $G$ un conjunto y $+$ su operación binaria asociada, es un grupo si se cumple que:
 
 - Para todo $a,b \in G$, $a+b \in G$.

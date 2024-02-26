@@ -15,10 +15,10 @@
       }
     },
     {
-      "query": "[\"draft\":true]",
+      "query": "path:Algoritmos  ",
       "color": {
         "a": 1,
-        "rgb": 8902236
+        "rgb": 3785527
       }
     },
     {
@@ -39,6 +39,6 @@
   "repelStrength": 13.1757359500446,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.31780872958436596,
-  "close": true
+  "scale": 1.2791531708576638,
+  "close": false
 }
