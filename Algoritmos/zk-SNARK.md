@@ -12,10 +12,8 @@ Usualmente, son implementados en los siguientes pasos:
 
 - **Representación** del cómputo a probar, como una serie de restricciones sobre variables.
 - **Reducción** de las restricciones en ecuaciones [[Polinomios|polinómicas]].
-- **Transformación** de las ecuaciones, y una clave secreta, a un espacio homomórfico, utilizando [[Curvas elípticas#Pares de curvas elípticas|pares de curvas elípticas]], a partir la misma clave secreta (que luego será desechada).
+- **Transformación** de las ecuaciones, y una clave secreta, a un espacio homomórfico, utilizando [[Curvas elípticas#Pares de curvas elípticas|pares de curvas elípticas]], a partir la misma clave secreta (que luego será desechada). Estas claves pueden ser generadas en conjunto entre múltiples particpantes para asegurar que ninguno la conozca por completo.
 - **Construcción** de las pruebas a partir de evaluar los polinomios en el espacio homomórfico.
 - **Verificación** de las pruebas, verificando que las ecuaciones sean válidas en el espacio homomórfico.
 
 Una de las implementaciones más simples de este sistema es el [[Baby SNARK]].
-
-
