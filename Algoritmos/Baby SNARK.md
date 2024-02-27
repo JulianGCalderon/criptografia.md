@@ -25,37 +25,41 @@ $$
 Luego, podremos calcular el problema polinómico asociado como
 
 $$
-P(x) = \Big(\sum u_j(x)z_j\Big)^2 - 1 = 0
+P(X) = \Big(\sum_{i=0}^{n-1} a_iu_u(X)\Big)^2 - 1 = 0
 $$
 
-Se pueden separar las declaraciones según el lado del *prover* y el lado del *verifier*. Cuando se habla de $i\geq l$, se refiere a que solo se deben utilizar los elementos del *prover*.
+Se pueden separar las declaraciones según las entradas públicas al sistema $i < l$, y el lado del testigo $i \geq l$.
 
 ## Configuración
 
 Este protocolo requiere de una configuración confiable para construir un CRS, o *common reference string*.
 
-La configuración parte de la representación matricial $\{u_i\}_{i \geq 0}$, y una semilla $\lambda$ #preguntar, y generará, de forma aleatoria, el secreto $\tau$, y los *shifts* $\beta, \gamma$. Luego, podremos derivar el CRS:
+La configuración parte de la representación matricial $\{u_i\}_{i \geq 0}$, y una semilla $\lambda$ #preguntar, y generará, de forma aleatoria, las *trapdors* $\tau$, $\beta, \gamma$. Luego, podremos derivar el CRS:
 
 $$
 \sigma := [1, \tau, \cdots, \tau^m, \gamma, \gamma\beta, \{\beta u_i(\tau)\}_{i \geq l}]_G
 $$
 
 > [!note] Notación
->  La notación $[x]_G$ implica que se debe calcular en el exponente del generador del grupo $G$.
-
-Los valores del CRM son utilizados para restringir al *prover* a utilizar los polinomios de forma correcta, y permitir que el *verifier* se asegure de la ejecución correcta.
+>  La notación $[x]_G$ implica que se debe calcular en el generador del grupo $G$.
 
 Además, se deben pre computar los siguientes valores.
 
 $$
-[t(\tau), \{u_i(\tau\}_{i \geq 0}]_G
+[t(\tau), \{u_i(\tau)\}_{i \geq 0}]_G
 $$
 
 Se utiliza como polinomio objetivo $t$ el polinomio con raíces en $i$ con $i \leq n-1$.
 
+El protocolo está construido alrededor de tres *trapdors*:
+
+- $\tau$: Permite evaluar cualquier polinomio de grado $m$ en el espacio homomórfico.
+- $\beta$: Restringe al *prover* a únicamente utilizar una combinación lineal de los polinomios dados.
+- $\gamma$: Permite verificar la consistencia de las restricciones.
+
 ## Prueba
 
-Queremos probar que conocemos una solución $\vec a$ para el polinomio $P(x)$, a partir del CRS $\sigma$. Para esto, debemos calcular $h(X)$ tal que $h(X) = P(X) / t(X)$.
+Queremos probar que conocemos una solución $\vec a$ para el polinomio $P(X)$, a partir del CRS $\sigma$. Para esto, debemos calcular $h(X)$ tal que $h(X) = P(X) / t(X)$.
 
 Computaremos la prueba, a partir de los valores pre computados de $[\tau^n]_G$:
 
@@ -76,7 +80,7 @@ Luego, debo ver que las restricciones se cumplan en el espacio homomórfico util
 
 $$
 \begin{align}
-e(H, [t(\tau)]_G) = e(V, V) \\
-e(B_w, [\gamma]_G) = e([\gamma\beta]_G, V_w)
+e(H, [t(\tau)]_G) = e(V, V) \implies h(\tau) t(\tau) = p(\tau)\\
+e(B_w, [\gamma]_G) = e([\gamma\beta]_G, V_w) \implies \gamma\beta p(\tau) = \gamma\beta p(\tau) 
 \end{align}
 $$
