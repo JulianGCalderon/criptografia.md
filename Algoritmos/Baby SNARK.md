@@ -34,7 +34,7 @@ Se pueden separar las declaraciones según las entradas públicas al sistema $i 
 
 Este protocolo requiere de una configuración confiable para construir un CRS, o *common reference string*.
 
-La configuración parte de la representación matricial $\{u_i\}_{i \geq 0}$, y una semilla $\lambda$ #preguntar, y generará, de forma aleatoria, las *trapdors* $\tau$, $\beta, \gamma$. Luego, podremos derivar el CRS:
+La configuración parte de la representación matricial $\{u_i\}_{i \geq 0}$, y generará, de forma aleatoria, las *trapdors* $\tau$, $\beta, \gamma$. Luego, podremos derivar el CRS:
 
 $$
 \sigma := [1, \tau, \cdots, \tau^m, \gamma, \gamma\beta, \{\beta u_i(\tau)\}_{i \geq l}]_G
