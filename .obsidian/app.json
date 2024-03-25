@@ -2,5 +2,6 @@
   "spellcheck": false,
   "spellcheckDictionary": [
     "tupla"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }
